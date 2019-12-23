@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="errorContainer">
+            <ul class="error"></ul>
+        </div>
+        <form autocomplete="off">
+            <div class="label">
+                <label for="">Name</label>
+            </div>
+            <div class="input">
+                <input type="text" name="name" id="" placeholder="enter text here">
+            </div>
+
+            <div class="label">
+                <label for="">Email</label>
+            </div>
+            <div class="input">
+                <input type="email" name="email" id="" placeholder="email">
+            </div>
+
+            <div class="label">
+                <label for="">Phone</label>
+            </div>
+            <div class="input phone">
+                <input type="text" name="phone1" id="" placeholder="284">
+                <input type="text" name="phone2" id="" placeholder="105">
+                <input type="text" name="phone3" id="" placeholder="1024">
+            </div>
+
+            <div class="label">
+                <label for="">Zip Code</label>
+            </div>
+            <div class="input">
+                <input type="number" name="zipCode" id="" placeholder="zip code">
+            </div>
+
+            <div class="label">
+                <label for="">Are you over 18?</label>
+            </div>
+            <div class="input">
+                <label for="">Yes</label>
+                <input type="radio" value="Yes" name="over18">
+                <label for="">No</label>
+                <input type="radio" value="No" name="over18" id="">
+            </div>
+
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </section>
+
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
